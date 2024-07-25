@@ -1,0 +1,24 @@
+package org.imanity.paste;
+
+public class PasteException extends Exception {
+
+    public PasteException() {
+        super();
+    }
+
+    public PasteException(String message) {
+        super(message);
+    }
+
+    public PasteException(String message, Throwable cause) {
+        super(message, cause);
+    }
+
+    public PasteException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
+        super(message, cause, enableSuppression, writableStackTrace);
+    }
+
+    public PasteException(Throwable cause) {
+        super(cause);
+    }
+}
