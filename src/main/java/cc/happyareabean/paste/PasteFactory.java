@@ -1,4 +1,4 @@
-package org.imanity.paste;
+package cc.happyareabean.paste;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;

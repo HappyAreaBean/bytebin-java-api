@@ -1,24 +1,25 @@
 # bytebin-java-api
-![](https://img.shields.io/nexus/imanity-libraries/org.imanity.paste/bytebin-java-api?label=bytebin-java-api&server=https%3A%2F%2Fmaven.imanity.dev&style=flat-square)
+[![][maven-badge]](https://repo.fantasyrealms.net/#/releases/cc/happyareabean/paste/bytebin-java-api)
 
 A Simple Java API to use for Bytebin
 
 * [Bytebin](https://github.com/lucko/bytebin) - Made by lucko
 
 ## Maven
-```
-<repositories>
-    <repository>
-        <id>imanity-repo</id>
-        <url>https://maven.imanity.dev/repository/imanity-libraries/</url>
-    </repository>
-</repositories>
 
+```xml
+<repository>
+  <id>fantasyrealms-releases</id>
+  <name>Fantasy Realms Repository</name>
+  <url>https://repo.fantasyrealms.net/releases</url>
+</repository>
+```
+
+```xml
 <dependency>
-    <groupId>org.imanity.paste</groupId>
-    <artifactId>bytebin-java-api</artifactId>
-    <version>VERSION</version>
-    <scope>provided</scope>
+  <groupId>cc.happyareabean.paste</groupId>
+  <artifactId>bytebin-java-api</artifactId>
+  <version>%VERSION%</version>
 </dependency>
 ```
 
@@ -40,3 +41,5 @@ public class BytebinTest {
 
 ## License
 MIT of course
+
+[maven-badge]: https://repo.fantasyrealms.net/api/badge/latest/releases/cc%2Fhappyareabean%2Fpaste%2Fbytebin-java-api?name=bytebin-java-api

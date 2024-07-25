@@ -1,4 +1,4 @@
-package org.imanity.paste;
+package cc.happyareabean.paste;
 
 public class PasteException extends Exception {
 

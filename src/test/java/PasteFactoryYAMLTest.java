@@ -1,5 +1,5 @@
-import org.imanity.paste.PasteException;
-import org.imanity.paste.PasteFactory;
+import cc.happyareabean.paste.PasteException;
+import cc.happyareabean.paste.PasteFactory;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
